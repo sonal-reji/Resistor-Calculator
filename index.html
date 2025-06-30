@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Resistor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   
+    <h1 id="show">Input Values</h1>
+<div class="resistor-container">
+  <div class="wire"></div>
+  <div class="resistor-body">
+    <div class="band" id="band1"></div>
+    <div class="band" id="band2"></div>
+    <div class="band" id="band3"></div>
+    <div class="band" id="band4"></div>
+  </div>
+  <div class="wire"></div>
+</div>
+
+<div class="controls">
+    <label>Band 1:
+    <select id="band1Select">
+      <option value="0" data-digit="0">Black</option>
+      <option value="1" data-digit="1">Brown</option>
+      <option value="2" data-digit="2">Red</option>
+      <option value="3" data-digit="3">Orange</option>
+      <option value="4" data-digit="4">Yellow</option>
+      <option value="5" data-digit="5">Green</option>
+      <option value="6" data-digit="6">Blue</option>
+      <option value="7"data-digit="7">Violet</option>
+      <option value="8"data-digit="8">Gray</option>
+      <option value="9"data-digit="9">White</option>
+    </select>
+  </label>
+    <label>Band 2:
+    <select id="band2Select">
+       <option value="0" data-digit="0">Black</option>
+      <option value="1" data-digit="1">Brown</option>
+      <option value="2" data-digit="2">Red</option>
+      <option value="3" data-digit="3">Orange</option>
+      <option value="4" data-digit="4">Yellow</option>
+      <option value="5" data-digit="5">Green</option>
+      <option value="6" data-digit="6">Blue</option>
+      <option value="7"data-digit="7">Violet</option>
+      <option value="8"data-digit="8">Gray</option>
+      <option value="9"data-digit="9">White</option>
+    </select>
+  </label>
+     <label>Band 3:
+    <select id="band3Select">
+      <option value="0" data-digit="0">Black</option>
+      <option value="1" data-digit="1">Brown</option>
+      <option value="2" data-digit="2">Red</option>
+      <option value="3" data-digit="3">Orange</option>
+      <option value="4" data-digit="4">Yellow</option>
+      <option value="5" data-digit="5">Green</option>
+      <option value="6" data-digit="6">Blue</option>
+      <option value="7"data-digit="7">Violet</option>
+      <option value="8"data-digit="8">Gray</option>
+      <option value="9"data-digit="9">White</option>
+    </select>
+  </label>
+    <label>Band 4:
+    <select id="band4Select">
+      <option value="0" data-digit="0">Black</option>
+      <option value="1" data-digit="1">Brown</option>
+      <option value="2" data-digit="2">Red</option>
+      <option value="3" data-digit="3">Orange</option>
+      <option value="4" data-digit="4">Yellow</option>
+      <option value="5" data-digit="5">Green</option>
+      <option value="6" data-digit="6">Blue</option>
+      <option value="7"data-digit="7">Violet</option>
+      <option value="8"data-digit="8">Gray</option>
+      <option value="9"data-digit="9">White</option>
+    </select>
+  </label>
+  <button id="Calculate" onclick="calculateResistance()">Calculate Resistance</button>
+   <a href="game.html">Guess Resistance</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
